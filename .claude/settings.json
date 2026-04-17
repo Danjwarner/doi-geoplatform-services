@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p .beads)",
+      "Bash(echo \"C:\\\\\\\\Users\\\\\\\\danjw\\\\\\\\.beads\")",
+      "Bash(npx cdk *)",
+      "Bash(chmod +x c:/Development/Dan/doi-geoplatform-services/scripts/deploy.sh)",
+      "Bash(pnpm install *)",
+      "Bash(pnpm build *)",
+      "Bash(pnpm typecheck *)",
+      "Bash(pnpm db:generate)"
+    ]
+  }
+}

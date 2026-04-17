@@ -1,0 +1,67 @@
+{
+  "name": "@doi/geoservices-core",
+  "version": "0.1.0",
+  "description": "Shared core library for DOI GeoServices Platform",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./db": {
+      "types": "./dist/db/index.d.ts",
+      "import": "./dist/db/index.js"
+    },
+    "./models": {
+      "types": "./dist/models/index.d.ts",
+      "import": "./dist/models/index.js"
+    },
+    "./repositories": {
+      "types": "./dist/repositories/index.d.ts",
+      "import": "./dist/repositories/index.js"
+    },
+    "./auth": {
+      "types": "./dist/auth/index.d.ts",
+      "import": "./dist/auth/index.js"
+    },
+    "./cache": {
+      "types": "./dist/cache/index.d.ts",
+      "import": "./dist/cache/index.js"
+    },
+    "./validation": {
+      "types": "./dist/validation/index.d.ts",
+      "import": "./dist/validation/index.js"
+    },
+    "./utils": {
+      "types": "./dist/utils/index.d.ts",
+      "import": "./dist/utils/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@redis/client": "^1.6.0",
+    "@turf/turf": "^7.1.0",
+    "drizzle-orm": "^0.36.4",
+    "drizzle-zod": "^0.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "pino": "^9.5.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.11.10",
+    "drizzle-kit": "^0.29.1",
+    "typescript": "^5.6.0"
+  }
+}
