@@ -8,7 +8,11 @@
       "Bash(pnpm install *)",
       "Bash(pnpm build *)",
       "Bash(pnpm typecheck *)",
-      "Bash(pnpm db:generate)"
+      "Bash(pnpm db:generate)",
+      "Read(//c/c/Development/Dan/doi-geoplatform-services/**)"
+    ],
+    "additionalDirectories": [
+      "C:\\Development\\Dan\\doi-geoplatform-services\\docs"
     ]
   }
 }

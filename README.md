@@ -88,7 +88,7 @@ bd ready            # See all available tasks
 - **Auth:** DOI Identity Server (JWT) with bureau + ownership model
 - **ORM:** Drizzle (lightweight, PostGIS-friendly)
 
-**See:** [ARCHITECTURE.md](./ARCHITECTURE.md) for detailed technical design
+**See:** [docs/ARCHITECTURE.md](./docs/ARCHITECTURE.md) for detailed technical design
 
 ## 📦 Project Structure
 
@@ -110,6 +110,8 @@ doi-geoplatform-services/
 │
 ├── docs/                     # Documentation
 │   ├── ARCHITECTURE.md       # Technical architecture
+│   ├── DATABASE.md           # Database guide
+│   ├── DEVELOPER.md          # Developer guide
 │   ├── IMPLEMENTATION_PLAN.md # Phase-by-phase plan
 │   └── PROJECT_STRUCTURE.md  # Detailed file organization
 │
@@ -234,9 +236,12 @@ npm run test:integration
 
 ## 📚 Documentation
 
-- **[ARCHITECTURE.md](./ARCHITECTURE.md)** - Complete technical architecture
-- **[IMPLEMENTATION_PLAN.md](./IMPLEMENTATION_PLAN.md)** - Epic breakdown, timeline, cost estimates
-- **[PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md)** - Detailed file organization
+- **[docs/ARCHITECTURE.md](./docs/ARCHITECTURE.md)** - Complete technical architecture
+- **[docs/DATABASE.md](./docs/DATABASE.md)** - Database setup, migrations, seed data
+- **[docs/DEVELOPER.md](./docs/DEVELOPER.md)** - Developer onboarding and guide
+- **[docs/IMPLEMENTATION_PLAN.md](./docs/IMPLEMENTATION_PLAN.md)** - Epic breakdown, timeline, cost estimates
+- **[docs/PROGRESS_SUMMARY.md](./docs/PROGRESS_SUMMARY.md)** - Current progress and completed work
+- **[docs/PROJECT_STRUCTURE.md](./docs/PROJECT_STRUCTURE.md)** - Detailed file organization
 
 ## 🤝 Leveraging Existing DOI Assets
 
@@ -331,4 +336,4 @@ MIT License - see [LICENSE](./LICENSE) for details
 
 ---
 
-**Questions or issues?** Check the [IMPLEMENTATION_PLAN.md](./IMPLEMENTATION_PLAN.md) or contact the team.
+**Questions or issues?** Check the [docs/IMPLEMENTATION_PLAN.md](./docs/IMPLEMENTATION_PLAN.md) or contact the team.
